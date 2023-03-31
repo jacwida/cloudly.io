@@ -1,5 +1,6 @@
 import Head from "next/head";
-
+import SideBar from "@/components/SideBar";
+import ContentMain from "@/components/Content";
 export default function Home() {
   return (
     <>
@@ -10,7 +11,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div>Hello</div>
+      <div className="bg-black flex">
+        <SideBar />
+        <ContentMain />
+      </div>
     </>
   );
 }
