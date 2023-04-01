@@ -195,3 +195,143 @@ export function DropDownIcon() {
     </svg>
   );
 }
+
+export function PlusIcon() {
+  return (
+    <svg
+      stroke="currentColor"
+      fill="currentColor"
+      stroke-width="0"
+      viewBox="0 0 24 24"
+      height="1.3em"
+      width="1.3em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g>
+        <path fill="none" d="M0 0h24v24H0z"></path>
+        <path d="M11 11V7h2v4h4v2h-4v4h-2v-4H7v-2h4zm1 11C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16z"></path>
+      </g>
+    </svg>
+  );
+}
+
+export function ArrowIcon() {
+  return (
+    <svg
+      stroke="currentColor"
+      fill="currentColor"
+      stroke-width="0"
+      viewBox="0 0 16 16"
+      height="1.3em"
+      width="1.3em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        fill-rule="evenodd"
+        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+      ></path>
+    </svg>
+  );
+}
+
+export function DotsIcon() {
+  return (
+    <svg
+      stroke="currentColor"
+      fill="currentColor"
+      stroke-width="0"
+      viewBox="0 0 24 24"
+      height="1.3em"
+      width="1.3em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M12 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm6 0c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zM6 10c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path>
+    </svg>
+  );
+}
+
+export function FolderIcon() {
+  return (
+    <svg
+      stroke="currentColor"
+      fill="none"
+      stroke-width="2"
+      viewBox="0 0 24 24"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      height="1.3em"
+      width="1.3em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path>
+      <line x1="9" y1="14" x2="15" y2="14"></line>
+    </svg>
+  );
+}
+
+export function ImageIcon() {
+  return (
+    <svg
+      stroke="currentColor"
+      fill="currentColor"
+      stroke-width="0"
+      viewBox="0 0 512 512"
+      height="1.3em"
+      width="1.3em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect
+        width="416"
+        height="352"
+        x="48"
+        y="80"
+        fill="none"
+        stroke-linejoin="round"
+        stroke-width="32"
+        rx="48"
+        ry="48"
+      ></rect>
+      <circle
+        cx="336"
+        cy="176"
+        r="32"
+        fill="none"
+        stroke-miterlimit="10"
+        stroke-width="32"
+      ></circle>
+      <path
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="32"
+        d="M304 335.79l-90.66-90.49a32 32 0 00-43.87-1.3L48 352m176 80l123.34-123.34a32 32 0 0143.11-2L464 368"
+      ></path>
+    </svg>
+  );
+}
+
+export function PlayIcon() {
+  return (
+    <svg
+      stroke="currentColor"
+      fill="none"
+      stroke-width="1.5"
+      viewBox="0 0 24 24"
+      aria-hidden="true"
+      height="1.3em"
+      width="1.3em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+      ></path>
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z"
+      ></path>
+    </svg>
+  );
+}
