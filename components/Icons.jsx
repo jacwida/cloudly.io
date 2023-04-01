@@ -117,3 +117,81 @@ export function LogoutIcon() {
     </svg>
   );
 }
+
+export function SearchIcon() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 512 512"
+      width="1.33em"
+      height="1.33em"
+      stroke="currentColor"
+      class="SVGIcon__StyledIconComponent-sc-1kyax6f-0 jbhFkv"
+    >
+      <path
+        fill="currenColor"
+        d="M508.5 481.6l-129-129c-2.3-2.3-5.3-3.5-8.5-3.5h-10.3C395 312 416 262.5 416 208 416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c54.5 0 104-21 141.1-55.2V371c0 3.2 1.3 6.2 3.5 8.5l129 129c4.7 4.7 12.3 4.7 17 0l9.9-9.9c4.7-4.7 4.7-12.3 0-17zM208 384c-97.3 0-176-78.7-176-176S110.7 32 208 32s176 78.7 176 176-78.7 176-176 176z"
+      ></path>
+    </svg>
+  );
+}
+
+export function IconUnk() {
+  return (
+    <svg
+      stroke="currentColor"
+      fill="currentColor"
+      stroke-width="0"
+      viewBox="0 0 24 24"
+      height="1.3em"
+      width="1.3em"
+      xmlns="http://www.w3.org/2000/svg"
+      class="bg-white  rounded-[200px] text-black"
+    >
+      <circle cx="12" cy="20" r="2"></circle>
+      <circle cx="12" cy="4" r="2"></circle>
+      <circle cx="6.343" cy="17.657" r="2"></circle>
+      <circle cx="17.657" cy="6.343" r="2"></circle>
+      <circle cx="4" cy="12" r="2.001"></circle>
+      <circle cx="20" cy="12" r="2"></circle>
+      <circle cx="6.343" cy="6.344" r="2"></circle>
+      <circle cx="17.657" cy="17.658" r="2"></circle>
+    </svg>
+  );
+}
+
+export function NotificationIcon() {
+  return (
+    <svg
+      stroke="currentColor"
+      fill="currentColor"
+      stroke-width="0"
+      viewBox="0 0 24 24"
+      height="1.3em"
+      width="1.3em"
+      xmlns="http://www.w3.org/2000/svg"
+      class="bg-white  rounded-[200px] text-black"
+    >
+      <path
+        fill="none"
+        stroke="#000"
+        stroke-width="2"
+        d="M4,19 L4,9 C4,4.582 7.582,1 12,1 C16.418,1 20,4.582 20,9 L20,19 M1,19 L23,19 M15,19 L15,20 C15,21.657 13.657,23 12,23 C10.343,23 9,21.657 9,20 L9,19"
+      ></path>
+    </svg>
+  );
+}
+
+export function DropDownIcon() {
+  return (
+    <svg
+      width="25"
+      height="25"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 125.8 291.6"
+      class="rotate-90"
+    >
+      <path d="M88.6 145.8l-70-81.1v162.2z"></path>
+    </svg>
+  );
+}
